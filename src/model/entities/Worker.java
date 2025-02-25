@@ -78,4 +78,9 @@ public class Worker {
         }
         return sum;
     }
+
+    public String toString(){
+        return String.format("Name: %s%nDepartment: %s%n" +
+                "", name, department.getName());
+    }
 }
